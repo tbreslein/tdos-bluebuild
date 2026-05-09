@@ -4,6 +4,7 @@ modules:
     install:
       packages:
         - alacritty
+
         - emacs
         - libvterm
         - mupdf
