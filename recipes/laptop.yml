@@ -12,5 +12,5 @@ modules:
     install:
       - 517 # Caffeine
       - 307 # dash to dock
-      - 3843 # just perfection
-      - 5090 # space bar
+      # - 3843 # just perfection
+      # - 5090 # space bar

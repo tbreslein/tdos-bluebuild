@@ -3,8 +3,13 @@
 # image will be published to ghcr.io/<user>/<name>
 name: tdos-desktop
 description: bazzite spin for gaming and dev
-base-image: ghcr.io/ublue-os/bazzite-dx
+base-image: ghcr.io/ublue-os/bazzite
 image-version: latest
 
 modules:
   - from-file: common.yml
+  # - type: gnome-extensions
+  #   install:
+  #     - 307 # dash to dock
+  #     # - 3843 # just perfection
+  #     # - 5090 # space bar
