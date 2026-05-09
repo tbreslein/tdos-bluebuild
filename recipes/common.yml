@@ -9,5 +9,6 @@ modules:
         - emacs
         - libvterm
         - mupdf
+        - mupdf-devel
 
   - type: signing
