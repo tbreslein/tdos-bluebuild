@@ -5,6 +5,7 @@ modules:
     install:
       packages:
         - alacritty
+        - rofi
 
         - emacs
         - libvterm
