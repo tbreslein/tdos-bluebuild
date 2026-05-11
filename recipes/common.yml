@@ -11,4 +11,14 @@ modules:
         - mupdf
         - mupdf-devel
 
+  - type: rpm-ostree
+    repos:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    keys:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+    optfix:
+      - brave.com
+    install:
+      - brave-browser   
+
   - type: signing
