@@ -14,11 +14,6 @@ modules:
         - mupdf
         - mupdf-devel
 
-        # gtk-teeming
-        - gtk-murrine-engine
-        # - gnome-themes-extra
-        - sassc
-
   - type: rpm-ostree
     repos:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
