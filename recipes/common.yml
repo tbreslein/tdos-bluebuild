@@ -14,9 +14,9 @@ modules:
         - mupdf
         - mupdf-devel
 
-        # gtk-theming
+        # gtk-teeming
         - gtk-murrine-engine
-        - gnome-themes-extra
+        # - gnome-themes-extra
         - sassc
 
   - type: rpm-ostree
