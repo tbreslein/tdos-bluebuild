@@ -4,14 +4,20 @@ modules:
   - type: dnf
     install:
       packages:
+        # misc
         - alacritty
+        - syncthing
 
+        # emacs
         - emacs
         - libvterm
         - mupdf
         - mupdf-devel
 
-        - syncthing
+        # gtk-theming
+        - gtk-murrine-engine
+        - gnome-themes-extra
+        - sassc
 
   - type: rpm-ostree
     repos:
