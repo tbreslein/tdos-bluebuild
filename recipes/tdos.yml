@@ -56,7 +56,7 @@ modules:
         - dunst
         - rofi
         - waybar
-        - xorg-x11-server-Xwaylan
+        - xorg-x11-server-Xwayland
         - wl-clipboard
         - flameshot
         - grim
