@@ -11,8 +11,6 @@ modules:
     repos:
       files:
         - https://repo.librewolf.net/librewolf.repo
-      copr:
-        - ashbuk/Hyprland-Fedora
     group-install:
       with-optional: true
       packages:
@@ -64,22 +62,23 @@ modules:
         - repo: librewolf
           packages:
             - librewolf
-        - repo: copr:copr.fedorainfracloud.org:ashbuk:Hyprland-Fedora
+        - repo: copr:copr.fedorainfracloud.org:sdegler:hyprland
           packages:
             - hyprland
+            - hyprland-guiutils
             - xdg-desktop-portal-hyprland
-        - hyprlock
-        - hypridle
-        - swaybg
-        - gammastep
+            - hyprpaper
+            - hyprlock
+            - hypridle
+            - hyprsunset
+            - hyprpolkitagent
+            - hyprshot
         - dunst
         - rofi
         - waybar
         - xorg-x11-server-Xwayland
         - wl-clipboard
         - flameshot
-        - grim
-        - slurp
         - imv
         - mpv
         - vlc
