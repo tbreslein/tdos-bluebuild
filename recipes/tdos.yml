@@ -1,0 +1,80 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# image will be published to ghcr.io/<user>/<name>
+name: tdos-bluebuild
+description: my bazzite-dx spin for gaming and dev
+base-image: ghcr.io/ublue-os/bazzite-dx
+image-version: latest
+
+modules:
+  - type: dnf
+    repos:
+      files:
+        - https://repo.librewolf.net/librewolf.repo
+      copr:
+        - ashbuk/Hyprland-Fedora
+    install:
+      packages:
+        # misc
+        - vim
+        - bash-completion
+        - git
+        - syncthing
+
+        # coding
+        - rustup
+        - zig
+        - golang
+        - gopls
+        - cmake
+        - ninja-build
+        - bear
+        - clang
+        - clang-tools-extra
+        - nodejs
+        
+        # emacs
+        - emacs
+        - libvterm
+        - mupdf
+        - mupdf-devel
+        - tree-sitter-cli
+
+        # desktop/hyprland
+        - alacritty
+        - repo: librewolf
+          packages:
+            - librewolf
+        - repo: copr:copr.fedorainfracloud.org:ashbuk/Hyprland-Fedora
+          packages:
+            - hyprland
+            - xdg-desktop-portal-hyprland
+        - hyprlock
+        - hypridle
+        - swaybg
+        - gammastep
+        - dunst
+        - rofi
+        - waybar
+        - xorg-x11-server-Xwaylan
+        - wl-clipboard
+        - flameshot
+        - grim
+        - slurp
+        - imv
+        - mpv
+        - vlc
+        - playerctl
+        - brightnessctl
+
+  - type: rpm-ostree
+    repos:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+    keys:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+    optfix:
+      - brave.com
+    install:
+      - brave-browser
+
+  - type: signing
