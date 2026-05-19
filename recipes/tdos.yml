@@ -64,17 +64,26 @@ modules:
         - repo: librewolf
           packages:
             - librewolf
-        - repo: copr:copr.fedorainfracloud.org:sdegler:hyprland
-          packages:
-            - hyprland
-            - hyprland-guiutils
-            - xdg-desktop-portal-hyprland
-            - hyprpaper
-            - hyprlock
-            - hypridle
-            - hyprsunset
-            - hyprpolkitagent
-            - hyprshot
+        # - repo: copr:copr.fedorainfracloud.org:sdegler:hyprland
+        #   packages:
+        #     - hyprland
+        #     - hyprland-guiutils
+        #     - xdg-desktop-portal-hyprland
+        #     - hyprpaper
+        #     - hyprlock
+        #     - hypridle
+        #     - hyprsunset
+        #     - hyprpolkitagent
+        #     - hyprshot
+        - hyprland
+        - hyprland-guiutils
+        - xdg-desktop-portal-hyprland
+        - hyprpaper
+        - hyprlock
+        - hypridle
+        - hyprsunset
+        - hyprpolkitagent
+        - hyprshot
         - dunst
         - rofi
         - waybar
