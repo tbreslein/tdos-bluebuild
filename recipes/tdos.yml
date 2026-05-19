@@ -11,6 +11,8 @@ modules:
     repos:
       files:
         - https://repo.librewolf.net/librewolf.repo
+      copr:
+        - sdegler/hyprland
     group-install:
       with-optional: true
       packages:
