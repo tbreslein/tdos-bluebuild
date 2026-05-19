@@ -45,7 +45,7 @@ modules:
         - repo: librewolf
           packages:
             - librewolf
-        - repo: copr:copr.fedorainfracloud.org:ashbuk/Hyprland-Fedora
+        - repo: copr:copr.fedorainfracloud.org:ashbuk:Hyprland-Fedora
           packages:
             - hyprland
             - xdg-desktop-portal-hyprland
