@@ -85,6 +85,7 @@ modules:
         - hyprsunset
         - hyprpolkitagent
         - hyprshot
+        - hyprlauncher
         - dunst
         - rofi
         - waybar
