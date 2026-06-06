@@ -48,7 +48,7 @@ modules:
         - libgccjit
         - libgccjit-devel
         - libtree-sitter
-        - libtree-sitter-devel
+        # - libtree-sitter-devel
         - jansson-devel
         - libvterm-devel
         - gtk3
