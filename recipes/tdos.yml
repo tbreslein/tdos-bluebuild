@@ -43,20 +43,6 @@ modules:
         - mupdf-devel
         - tree-sitter-cli
 
-        # - libgccjit
-        # - libgccjit-devel
-        # - libtree-sitter
-        # - libtree-sitter-devel
-        # - jansson-devel
-        # - libvterm-devel
-        # - gtk3
-        # - gtk3-devel
-        # - gtk4
-        # - gtk4-devel
-        # - webkit2gtk4.1-devel
-        # - webkitgtk6.0-devel
-        # - gnutls-devel
-
         # desktop/hyprland
         - alacritty
         - pavucontrol
@@ -91,7 +77,4 @@ modules:
     install:
       - brave-browser
 
-  - type: script
-    snippets:
-      - "dnf5 -y builddep emacs"
   - type: signing
