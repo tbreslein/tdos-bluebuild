@@ -91,7 +91,7 @@ modules:
     install:
       - brave-browser
 
-  # - type: script
-  #   snippets:
-  #     - "dnf5 -y builddep emacs"
+  - type: script
+    snippets:
+      - "dnf5 -y builddep emacs"
   - type: signing
