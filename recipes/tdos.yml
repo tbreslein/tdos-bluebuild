@@ -7,6 +7,13 @@ base-image: ghcr.io/ublue-os/bazzite-dx
 image-version: latest
 
 modules:
+  #- type: rpm-ostree
+  #  repos:
+  #    - nix.repo
+  #  install:
+  #    - nix
+  #    - nix-bash-completion
+
   - type: dnf
     repos:
       copr:
