@@ -18,11 +18,6 @@ modules:
     repos:
       copr:
         - sdegler/hyprland
-    group-install:
-      with-optional: true
-      packages:
-        - c-development
-        - development-tools
     install:
       packages:
         # misc
@@ -30,18 +25,6 @@ modules:
         - bash-completion
         - git
         - syncthing
-
-        # coding
-        - rustup
-        - zig
-        - golang
-        - gopls
-        - cmake
-        - ninja-build
-        - bear
-        - clang
-        - clang-tools-extra
-        - nodejs
         
         # emacs
         - emacs
