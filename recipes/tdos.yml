@@ -18,6 +18,8 @@ modules:
     repos:
       copr:
         - sdegler/hyprland
+        - scottames/ghostty
+
     install:
       packages:
         # misc
@@ -35,6 +37,7 @@ modules:
 
         # desktop/hyprland
         - alacritty
+        - ghostty
         - pavucontrol
         - hyprland
         - hyprland-guiutils
