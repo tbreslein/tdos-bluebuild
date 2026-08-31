@@ -27,25 +27,18 @@ modules:
         - bash-completion
         - git
         - syncthing
-        
-        # emacs
-        - emacs
-        - libvterm
-        - mupdf
-        - mupdf-devel
-        - tree-sitter-cli
 
         # desktop/hyprland
-        - alacritty
         - ghostty
         - pavucontrol
         - hyprland
         - hyprland-guiutils
+        - satty
         - xdg-desktop-portal-hyprland
-        - hyprpaper
         - hyprlock
         - hypridle
         - hyprsunset
+        - hyprshutdown
         - hyprpolkitagent
         - hyprshot
         - dunst
